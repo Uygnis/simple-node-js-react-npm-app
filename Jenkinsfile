@@ -16,7 +16,7 @@ pipeline {
         
         dependencyCheckPublisher pattern: 'dependency-check-report.xml'
       }
-    },
+    }
         stage('Build') { 
             steps {
                 sh 'npm install' 
